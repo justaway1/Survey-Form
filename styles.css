@@ -43,3 +43,47 @@
     font-family: 'Verdana', sans-serif;
     color: rgba(251, 251, 251, 0.983);
   }
+  label {
+    display: block;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  input[type='text'],[type='email'],
+  [type='number'], select, textarea{
+    display: block;
+    width: 100%;
+    padding: 10px 8px;
+    border-radius: 6px;
+    border: none;
+    color: grey;
+    margin: 5px 0 25px 0;
+    font-size: 1.5rem;
+    outline: none;
+  }
+  
+  input[type='checkbox'] {
+    margin: 0 10px 0 5px;
+    transform: scale(1.5);
+    vertical-align: middle;
+  }
+  
+  input[type='radio'] {
+    transform: scale(1.5);
+    margin-left: 5px;
+  }
+  
+  .last-item {
+    margin-bottom: 40px;
+  }
+  
+  input[type='submit'] {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(34, 197, 234, 0.77);
+    border-radius: 6px;
+    color: #fff;
+    font-size: 2rem;
+    border: none;
+  }
+  
