@@ -11,3 +11,17 @@
     <h1 id='title'> Survey Form</h1>
     <p id='description'>Thank you for taking the time to help us improve the platform</p>
 </header>
+<form id='survey-form'>
+    <label id='name-label' for='name'>Name <input type='text' id='name' name='name' placeholder='Enter your name' required></label>
+    <label id='email-label' for='email'>Email <input type='email' id='email' name='email' placeholder='Enter your Email' required></label>
+    <label id='number-label' for='number'>Age (optional) <input type='number' id='number' name='age' placeholder='Age' required min='13' max='120'></label>
+
+    <label for='dropdown'>Which option best describes your current role?</label>
+    <select id='dropdown'>
+      <option value=''>Select current role</option>
+      <option value='1'>Student</option>
+      <option value='2'>Full time job</option>
+      <option value='3'>Full time learner</option>
+      <option value='4'>Prefer not to say</option>
+      <option value='5'>Other</option>
+    </select>
