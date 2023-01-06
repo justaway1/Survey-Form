@@ -24,3 +24,22 @@
     align-items: center;
     margin-top: 50px;
   }
+  #title {
+    font-size: 4rem;
+    margin-bottom: 7px;
+  }
+  
+  #description {
+    font-size: 2rem;
+  }
+  
+  #survey-form {
+    background-color: rgba(1, 0, 4, 0.243);
+    width: 50vw;
+    margin: 30px auto;
+    padding: 30px 40px;
+    font-size: 1.7rem;
+    border-radius: 10px;
+    font-family: 'Verdana', sans-serif;
+    color: rgba(251, 251, 251, 0.983);
+  }
